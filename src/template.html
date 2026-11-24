@@ -251,6 +251,7 @@ footer .in{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;pa
 @media (max-width:420px){.brand span{display:none}}
 @media (max-width:400px){h2{font-size:24px}.retail b{font-size:20px}.hero h1{font-size:28px}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.mood{display:grid;grid-template-columns:repeat(6,1fr);gap:0;background:var(--forest)}.mood img{width:100%;aspect-ratio:1;object-fit:cover;display:block}@media (max-width:700px){.mood{grid-template-columns:repeat(3,1fr)}}
 </style>
 </head>
 <body>
@@ -326,6 +327,8 @@ footer .in{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;pa
  </div>
  <a href="#contact" class="pjoin2">Դարձեք գործընկեր →</a>
 </div></section>
+
+<div class="mood" aria-hidden="true"><img loading="lazy" decoding="async" src="{{MOOD1}}" alt=""><img loading="lazy" decoding="async" src="{{MOOD2}}" alt=""><img loading="lazy" decoding="async" src="{{MOOD3}}" alt=""><img loading="lazy" decoding="async" src="{{MOOD4}}" alt=""><img loading="lazy" decoding="async" src="{{MOOD5}}" alt=""><img loading="lazy" decoding="async" src="{{MOOD6}}" alt=""></div>
 
 <section class="products" id="products"><div class="in">
  <div class="head">
