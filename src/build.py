@@ -7,7 +7,7 @@ IMAGES = {
     "HEN": "hen.jpg", "PACK": "pack.jpg", "LEGS": "legs.jpg", "WHOLE": "whole.jpg",
     "FILLET": "fillet.jpg", "WING": "wing.jpg", "BONE": "bonebreast.jpg", "SCHN": "schnitzel.jpg",
     "SAUS": "sausage.jpg", "PHAM": "pork_ham.jpg", "PNECK": "pork_neck.jpg", "STICKS": "sticks.jpg",
-    "FRY": "frysaus.jpg", "PFAT": "pork_fat.jpg", "NUG": "nuggets2.jpg", "CUT": "cutlet.jpg", "DRUM": "drumstick.jpg",
+    "FRY": "frysaus.jpg", "PFAT": "pork_fat.jpg", "NUG": "nuggets2.jpg", "CUT": "cutlet.jpg", "DRUM": "drumstick.jpg", "PRIB": "pork_ribs.jpg",
 }
 html = (ROOT / "src/template.html").read_text(encoding="utf-8")
 for key, name in IMAGES.items():
