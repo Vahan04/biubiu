@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang="hy">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Frozen Meat — Ֆրոզեն Միթ</title>
+<meta name="description" content="«Ֆրոզեն Միթ» ՍՊԸ — մսամթերքի ներմուծում և մեծածախ մատակարարում Հայաստանում, Biu Biu ապրանքանիշի բացառիկ ներկայացուցիչ։ Թարմ և սառեցված հավի միս, կիսաֆաբրիկատներ, նրբերշիկներ, խոզի միս։">
+<meta name="theme-color" content="#163f37">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Frozen Meat">
+<meta property="og:title" content="Frozen Meat — Ֆրոզեն Միթ">
+<meta property="og:description" content="Մսամթերքի ներմուծում և մեծածախ մատակարարում։ Biu Biu ապրանքանիշի բացառիկ ներկայացուցիչ Հայաստանում։">
+<meta property="og:image" content="https://vahan04.github.io/biubiu/assets/img/og.jpg">
+<meta property="og:url" content="https://vahan04.github.io/biubiu/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" as="image" href="{{FARM}}">
+<style>
+@font-face{font-family:S;font-style:normal;font-display:swap;font-weight:400;src:url(assets/fonts/noto-sans-armenian-armenian-400-normal.woff2) format("woff2");unicode-range:U+0308,U+0530-058F,U+2010,U+2024,U+25CC,U+FB13-FB17}
+@font-face{font-family:S;font-style:normal;font-display:swap;font-weight:400;src:url(assets/fonts/noto-sans-armenian-latin-400-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:S;font-style:normal;font-display:swap;font-weight:400;src:url(assets/fonts/noto-sans-cyrillic-400-normal.woff2) format("woff2");unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:S;font-style:normal;font-display:swap;font-weight:600;src:url(assets/fonts/noto-sans-armenian-armenian-600-normal.woff2) format("woff2");unicode-range:U+0308,U+0530-058F,U+2010,U+2024,U+25CC,U+FB13-FB17}
+@font-face{font-family:S;font-style:normal;font-display:swap;font-weight:600;src:url(assets/fonts/noto-sans-armenian-latin-600-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:S;font-style:normal;font-display:swap;font-weight:600;src:url(assets/fonts/noto-sans-cyrillic-600-normal.woff2) format("woff2");unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:S;font-style:normal;font-display:swap;font-weight:700;src:url(assets/fonts/noto-sans-armenian-armenian-700-normal.woff2) format("woff2");unicode-range:U+0308,U+0530-058F,U+2010,U+2024,U+25CC,U+FB13-FB17}
+@font-face{font-family:S;font-style:normal;font-display:swap;font-weight:700;src:url(assets/fonts/noto-sans-armenian-latin-700-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:S;font-style:normal;font-display:swap;font-weight:700;src:url(assets/fonts/noto-sans-cyrillic-700-normal.woff2) format("woff2");unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+
+:root{
+ --forest:#163f37; --forest2:#1f5f54; --yellow:#f2c230; --ink:#1c2620; --muted:#5f6b63;
+ --paper:#f6f5f0; --white:#ffffff; --line:#e3e2d9;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:S,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;font-size:16px}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+.in{max-width:1140px;margin:0 auto;padding:0 20px}
+h1,h2,h3{margin:0;line-height:1.2;text-wrap:balance}
+.kicker{display:flex;align-items:center;gap:12px;font-size:13px;font-weight:700;letter-spacing:.12em;color:var(--forest2)}
+.kicker:before{content:"";width:36px;height:3px;background:var(--yellow)}
+h2{font-size:36px;font-weight:700;margin:12px 0 16px;color:var(--forest)}
+
+header{position:sticky;top:0;z-index:20;background:var(--forest);color:#fff}
+header .in{display:flex;align-items:center;justify-content:space-between;height:76px;gap:16px}
+.brand{display:flex;align-items:center;gap:14px}
+.brand img{height:52px;width:auto}
+.brand small{display:block;font-size:12px;letter-spacing:.1em;opacity:.7;line-height:1.2}
+.brand b{font-size:15px;letter-spacing:.04em}
+nav{display:flex;gap:28px;font-weight:600;font-size:15px}
+nav a{opacity:.85}nav a:hover{opacity:1;color:var(--yellow)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--yellow);color:var(--forest);font:inherit;font-weight:700;padding:13px 24px;border-radius:6px;border:0;cursor:pointer}
+.btn.line{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.5)}
+
+.hero{background:var(--forest);color:#fff;position:relative;overflow:hidden}
+.hero{min-height:560px;display:flex;align-items:center}
+.hero .farm{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:70% 50%}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(22,63,55,.96) 0%,rgba(22,63,55,.88) 38%,rgba(22,63,55,.25) 62%,rgba(22,63,55,0) 80%)}
+.hero .in{position:relative;z-index:1;width:100%;padding-top:72px;padding-bottom:80px}
+.htext{max-width:540px}
+.hero h1{font-size:50px;font-weight:700;margin:18px 0}
+.hero h1 em{font-style:normal;color:var(--yellow)}
+.hero p{opacity:.85;font-size:18px;max-width:480px;margin:0 0 30px}
+.hero .cta{display:flex;gap:12px;flex-wrap:wrap}
+.hero .kicker{color:var(--yellow)}
+.mosaic{display:grid;grid-template-columns:1.2fr 1fr;grid-template-rows:200px 200px;gap:12px}
+.mosaic img{width:100%;height:100%;object-fit:cover;border-radius:8px}
+.mosaic img:first-child{grid-row:1/3}
+.stats{background:var(--forest2);color:#fff}
+.stats .in{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;padding-top:26px;padding-bottom:26px}
+.stats div{border-left:3px solid var(--yellow);padding-left:14px}
+.stats b{display:block;font-size:22px}
+.stats span{font-size:14px;opacity:.8}
+
+section{padding:88px 0}
+.about .in{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.about p{color:var(--muted);margin:0 0 14px}
+.about .pics{position:relative}
+.about .pics img{border-radius:8px;height:420px;width:100%;object-fit:cover}
+.about .pics .tag{position:absolute;left:-18px;bottom:28px;background:var(--white);border-radius:8px;padding:16px 18px;box-shadow:0 14px 30px rgba(0,0,0,.12);display:flex;gap:14px;align-items:center}
+.about .pics .tag img{height:58px;width:auto;border-radius:4px}
+.about .pics .tag small{color:var(--muted);display:block;font-size:12px}
+.vals{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:22px}
+.vals div{background:var(--white);border:1px solid var(--line);border-radius:8px;padding:14px 16px;font-weight:600;font-size:15px}
+.vals div span{display:block;font-weight:400;color:var(--muted);font-size:14px}
+
+.partners{background:var(--white)}
+.partners .head{display:flex;justify-content:space-between;align-items:end;gap:24px;flex-wrap:wrap;margin-bottom:34px}
+.partners .head p{color:var(--muted);max-width:420px;margin:0}
+.logos{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+.logos div{height:96px;border:1px dashed #c9c8bd;border-radius:8px;display:grid;place-items:center;color:#a3a296;font-size:13px;text-align:center;padding:8px}
+.segs{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:28px}
+.segs div{background:var(--paper);border-radius:8px;padding:18px;font-weight:600}
+.segs div span{display:block;font-weight:400;color:var(--muted);font-size:14px}
+
+.products .head{display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap;margin-bottom:28px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap}
+.tabs button{font:inherit;font-size:14px;font-weight:600;padding:9px 16px;border-radius:6px;border:1px solid var(--line);background:var(--white);cursor:pointer;color:var(--ink)}
+.tabs button.on{background:var(--forest);border-color:var(--forest);color:#fff}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.card{background:var(--white);border:1px solid var(--line);border-radius:8px;overflow:hidden;display:flex;flex-direction:column}
+.card .ph{height:170px;background:#e9e7dc}
+.card .ph img{width:100%;height:100%;object-fit:cover}
+.card .ph img.pk{object-fit:contain;background:#fff}
+.card .ph.none{display:grid;place-items:center;color:#a3a296;font-size:13px}
+.card .b{padding:16px;display:flex;flex-direction:column;gap:6px;flex:1}
+.card .t{font-size:12px;font-weight:700;letter-spacing:.06em;color:var(--forest2)}
+.card h3{font-size:18px}
+.card ul{margin:4px 0 0;padding:0;list-style:none;color:var(--muted);font-size:14px}
+.card li{display:flex;justify-content:space-between;border-top:1px solid var(--line);padding:6px 0}
+.note{margin-top:22px;background:var(--forest);color:#fff;border-radius:8px;padding:22px 26px;display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}
+.note b{font-size:20px}
+
+.contact{background:var(--forest);color:#fff}
+.contact h2{color:#fff}
+.contact .kicker{color:var(--yellow)}
+.addr{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:30px 0 40px}
+.addr div{background:var(--forest2);border-radius:8px;padding:22px}
+.addr .lbl{font-size:12px;letter-spacing:.1em;font-weight:700;color:var(--yellow)}
+.addr h3{font-size:19px;margin:8px 0 10px}
+.addr p{margin:0;opacity:.8;font-size:15px}
+.addr a{display:inline-block;margin-top:12px;font-weight:600;border-bottom:2px solid var(--yellow)}
+.cgrid{display:grid;grid-template-columns:1fr 1.2fr;gap:40px;align-items:start}
+.phones a{display:block;font-size:30px;font-weight:700;letter-spacing:.02em}
+.phones p{opacity:.8;margin:14px 0 0}
+form{background:var(--white);color:var(--ink);border-radius:8px;padding:26px;display:grid;gap:12px}
+form h3{font-size:22px;color:var(--forest)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+input,select,textarea{font:inherit;padding:12px 14px;border:1px solid var(--line);border-radius:6px;background:var(--paper);width:100%;color:var(--ink)}
+textarea{min-height:80px;resize:vertical}
+.ok{background:#e7f1e4;color:var(--forest);border-radius:6px;padding:12px;font-weight:600}
+footer{background:#0f2f29;color:rgba(255,255,255,.7);font-size:14px}
+footer .in{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-top:22px;padding-bottom:22px}
+:focus-visible{outline:3px solid var(--yellow);outline-offset:2px}
+
+@media (max-width:900px){
+ nav{display:none}
+ .about .in,.cgrid{grid-template-columns:1fr}
+ .hero{display:block;min-height:0}
+ .hero .farm{position:static;height:240px;object-position:62% 50%}
+ .hero:after{display:none}
+ .hero .in{padding-top:30px;padding-bottom:48px}
+ .hero h1{font-size:34px}
+ .stats .in{grid-template-columns:1fr 1fr}
+ .logos{grid-template-columns:repeat(3,1fr)}
+ .segs,.grid{grid-template-columns:1fr 1fr}
+ .addr{grid-template-columns:1fr}
+ section{padding:60px 0}
+ h2{font-size:28px}
+ .about .pics img{height:280px}
+ .about .pics .tag{left:12px}
+ header .btn{padding:10px 14px;font-size:14px}
+ .brand small,.brand b{display:none}
+}
+@media (max-width:480px){.grid,.vals,.two{grid-template-columns:1fr}.card .ph{height:190px}}
+
+.certs{margin-top:22px;background:var(--white);border:1px solid var(--line);border-radius:8px;padding:18px 20px}
+.certhead b{display:block;color:var(--forest);font-size:17px}
+.certhead span{color:var(--muted);font-size:14px}
+.certs ul{list-style:none;margin:12px 0 0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.certs li{border-left:3px solid var(--yellow);padding-left:12px}
+.certs li b{display:block;font-size:15px}
+.certs li span{color:var(--muted);font-size:13px}
+.plist{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.plist>*{border:1px solid var(--line);border-radius:8px;padding:28px 24px;background:var(--paper)}
+.plist b{display:block;font-size:30px;color:var(--forest);line-height:1.2}
+.plist span{color:var(--muted)}
+.plist .pjoin{background:var(--forest);border-color:var(--forest)}
+.plist .pjoin b{color:#fff;font-size:22px}.plist .pjoin span{color:var(--yellow);font-weight:600}
+.products .sub{color:var(--muted);margin:0}
+.grid{grid-template-columns:repeat(4,1fr)}
+.card.wide{grid-column:span 2}
+.card.wide .ph{height:300px}
+.card .ph{height:220px}
+.card p{margin:0;color:var(--muted);font-size:14px}
+.phones .mail{font-size:18px;font-weight:600;border-bottom:2px solid var(--yellow)}
+@media (max-width:900px){.plist{grid-template-columns:1fr}.grid{grid-template-columns:1fr 1fr}.card.wide{grid-column:auto}.card.wide .ph{height:220px}.certs ul{grid-template-columns:1fr}}
+@media (max-width:480px){.grid{grid-template-columns:1fr}.card.wide{grid-column:auto}.card.wide .ph{aspect-ratio:auto;height:220px}}
+
+.hright{display:flex;align-items:center;gap:14px}
+.langs{display:flex;border:1px solid rgba(255,255,255,.35);border-radius:6px;overflow:hidden}
+.langs button{font:inherit;font-size:13px;font-weight:700;background:transparent;color:#fff;border:0;padding:8px 10px;cursor:pointer;opacity:.75}
+.langs button[aria-pressed="true"]{background:var(--yellow);color:var(--forest);opacity:1}
+@media (max-width:900px){.hright .btn{display:none}}
+
+.brand img{height:48px}
+.brand b{display:block;font-size:17px;letter-spacing:.08em}
+.brand small{opacity:.75}
+.hero h1{font-size:44px}
+.rep{display:inline-flex;align-items:center;gap:14px;margin-top:30px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:8px;padding:10px 16px 10px 10px}
+.rep img{height:46px;width:auto}
+.rep small{display:block;font-size:12px;opacity:.75}
+.rep b{color:var(--yellow)}
+.about .in{align-items:start}
+.brandcard{background:var(--white);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.bc-img img{width:100%;height:340px;object-fit:cover;object-position:50% 30%}
+.bc-body{padding:22px}
+.bc-top{display:flex;align-items:center;gap:14px;margin-bottom:10px}
+.bc-top img{height:56px;width:auto}
+.bc-top small{display:block;font-size:11px;letter-spacing:.1em;font-weight:700;color:var(--forest2)}
+.bc-top b{font-size:22px;color:var(--forest)}
+.bc-body p{color:var(--muted);margin:0 0 12px}
+.certl{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.certl li{border-left:3px solid var(--yellow);padding-left:10px}
+.certl b{display:block;font-size:14px}.certl span{color:var(--muted);font-size:13px}
+@media (max-width:900px){.hero h1{font-size:32px}.certl{grid-template-columns:1fr}.brand b{display:block;font-size:14px;white-space:nowrap}.brand small{display:none}.brand img{height:40px}.langs button{padding:7px 8px}}
+
+.retail{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+.retail div{border:1px solid var(--line);border-radius:8px;padding:22px 18px;background:var(--paper)}
+.retail b{display:block;font-size:24px;color:var(--forest);line-height:1.2}
+.retail span{color:var(--muted);font-size:14px}
+.subh{font-size:20px;color:var(--forest);margin:34px 0 14px}
+.intl{display:flex;flex-wrap:wrap;gap:10px}
+.intl span{border:1px solid var(--line);border-radius:999px;padding:8px 16px;font-weight:600;font-size:14px;background:var(--white)}
+.pjoin2{display:inline-block;margin-top:26px;font-weight:700;color:var(--forest);border-bottom:2px solid var(--yellow)}
+.cat{margin-top:34px}
+.cat[hidden]{display:none}
+.cathead{display:flex;align-items:center;gap:14px;margin-bottom:16px;padding-bottom:12px;border-bottom:2px solid var(--line)}
+.cathead img{height:44px;width:auto}
+.cathead img.fmt{height:40px}
+.cathead h3{font-size:22px;color:var(--forest)}
+.cathead span{color:var(--muted);font-size:14px}
+.products .grid{grid-template-columns:repeat(4,1fr)}
+.products .card .ph{height:190px}
+.products .card h4{font-size:16px;margin:0;line-height:1.3}
+.soc{display:flex;gap:16px}
+.soc a{display:inline-block;margin-top:12px;font-weight:600;border-bottom:2px solid var(--yellow)}
+.mails{display:grid;grid-template-columns:auto 1fr;gap:6px 16px;margin:18px 0 0}
+.mails dt{opacity:.7;font-size:14px}.mails dd{margin:0;font-weight:600}
+.mails a{font-size:15px;letter-spacing:0;display:inline}
+@media (max-width:900px){.retail{grid-template-columns:1fr 1fr}.products .grid{grid-template-columns:1fr 1fr}.mails{grid-template-columns:1fr}.mails dd{margin-bottom:8px}}
+@media (max-width:480px){.products .grid{grid-template-columns:1fr 1fr}.products .card .ph{height:140px}.products .card h4{font-size:14px}}
+
+.retail{grid-template-columns:repeat(5,minmax(0,1fr))}
+.retail div,.cathead>div,.products .head>div{min-width:0}
+.retail b,.retail span,h1,h2,h3,h4{overflow-wrap:break-word}
+.fl{display:grid;gap:4px;min-width:0}
+.fl span{font-size:13px;font-weight:600;color:var(--muted)}
+.err{margin:0;color:#b42318;font-weight:600;font-size:14px}
+.ok p{margin:0 0 8px}
+.btn.line2{background:transparent;border:2px solid var(--forest);color:var(--forest);padding:9px 16px;font-size:14px}
+#copied{font-weight:700;color:var(--forest);margin-left:8px}
+.mnav{display:none}
+@media (max-width:900px){
+ .retail{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .mnav{display:flex;gap:18px;overflow-x:auto;padding:8px 20px 10px;border-top:1px solid rgba(255,255,255,.12);font-weight:600;font-size:14px;white-space:nowrap;scrollbar-width:none}
+ .mnav::-webkit-scrollbar{display:none}
+ .mnav a{opacity:.9}.mnav .mcta{color:var(--yellow)}
+ html{scroll-padding-top:120px}
+}
+@media (min-width:901px){html{scroll-padding-top:80px}}
+@media (max-width:420px){.brand span{display:none}}
+@media (max-width:400px){h2{font-size:24px}.retail b{font-size:20px}.hero h1{font-size:28px}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header><div class="in">
+ <a class="brand" href="#"><img src="{{FMW}}" alt="Frozen Meat"><span><b>FROZEN MEAT</b><small>«Ֆրոզեն Միթ» ՍՊԸ</small></span></a>
+ <nav aria-label="Main"><a href="#about">Մեր մասին</a><a href="#partners">Գործընկերներ</a><a href="#products">Ապրանքներ</a><a href="#contact">Կապ</a></nav>
+ <div class="hright"><div class="langs" role="group" aria-label="Language"><button type="button" data-l="hy" aria-pressed="true">ՀԱՅ</button><button type="button" data-l="ru" aria-pressed="false">РУС</button><button type="button" data-l="en" aria-pressed="false">ENG</button></div><a class="btn" href="#contact">Դառնալ գործընկեր</a></div>
+</div>
+<nav class="mnav" aria-label="Main"><a href="#about">Մեր մասին</a><a href="#partners">Գործընկերներ</a><a href="#products">Ապրանքներ</a><a href="#contact">Կապ</a><a href="#contact" class="mcta">Դառնալ գործընկեր</a></nav>
+</header>
+
+<main>
+<div class="hero">
+ <img class="farm" src="{{FARM}}" alt="Տատիկը եգիպտացորենով կերակրում է հավերին դաշտի մոտ" data-i18n-alt="_farm">
+ <div class="in">
+ <div class="htext">
+  <div class="kicker">ՄՍԱՄԹԵՐՔԻ ՆԵՐՄՈՒԾՈՒՄ</div>
+  <h1>Մսամթերքի ներմուծում և մեծածախ մատակարարում</h1>
+  <p>20 տարուց ավելի փորձ ունեցող ընկերություն։ Ներմուծում ենք թարմ և սառեցված միս ու մսային արտադրանք և մատակարարում Հայաստանի սուպերմարկետներին, խանութներին և հանրային սննդի կետերին։</p>
+  <div class="cta"><a class="btn" href="#contact">Ստանալ գնացուցակ</a><a class="btn line" href="#products">Ապրանքներ</a></div>
+  <div class="rep"><img loading="lazy" decoding="async" src="{{LOGO}}" alt="Biu Biu"><span><small>Բացառիկ ներկայացուցիչ ՀՀ-ում</small><b>Biu Biu ապրանքանիշ</b></span></div>
+ </div>
+ </div>
+</div>
+
+<div class="stats"><div class="in">
+ <div><b>20+ տարի</b><span>մսամթերքի շուկայում</span></div>
+ <div><b>Biu Biu</b><span>բացառիկ ներկայացուցիչ ՀՀ-ում</span></div>
+ <div><b>6 երկիր</b><span>միջազգային գործընկերներ</span></div>
+ <div><b>Մեծածախ և մանրածախ</b><span>թարմ և սառեցված միս</span></div>
+</div></div>
+
+<section class="about" id="about"><div class="in">
+ <div class="ab-co">
+  <div class="kicker">ՄԵՐ ՄԱՍԻՆ</div>
+  <h2>«Ֆրոզեն Միթ» ՍՊԸ</h2>
+  <p>«Ֆրոզեն Միթ» ընկերությունը մսամթերքի ներմուծման և վաճառքի ոլորտում ունի ավելի քան 20 տարվա աշխատանքային փորձ։ Մինչև 2020 թվականը ընկերությունը շուկայում գործել է այլ անվան ներքո՝ տարիների ընթացքում կուտակելով մասնագիտական հարուստ փորձ և ձևավորելով վստահելի գործընկերային հարաբերություններ։</p>
+  <p>Ընկերության հիմնական գործունեությունը թարմ և սառեցված մսի ու մսային արտադրանքի ներմուծումն է, մեծածախ և մանրածախ վաճառքը։ Այսօր «Ֆրոզեն Միթ»-ը Հայաստանի մսամթերքի շուկայի խոշոր և կայացած ընկերություններից է և ՀՀ խոշոր հարկատուներից մեկը։</p>
+  <p>Ընկերությունը սերտ գործարար կապեր ունի եվրոպական, ռուսական, վրացական, չինական, ամերիկյան և ուկրաինական առաջատար արտադրողների ու մատակարարների հետ և նրանցից մի քանիսի պաշտոնական ու բացառիկ ներկայացուցիչն է Հայաստանում։</p>
+ </div>
+ <div class="brandcard">
+  <div class="bc-img"><img loading="lazy" decoding="async" src="{{HEN}}" alt="Սպիտակ հավ եգիպտացորենի և ցորենի կողքին" data-i18n-alt="_hen"></div>
+  <div class="bc-body">
+   <div class="bc-top"><img loading="lazy" decoding="async" src="{{LOGO}}" alt="Biu Biu"><div><small>ԲԱՑԱՌԻԿ ՆԵՐԿԱՅԱՑՈՒՑԻՉ ՀՀ-ՈՒՄ</small><b>Biu Biu</b></div></div>
+   <p>Վրացական «Չիրինա» (CHIRINA LTD) ընկերությունը մեր ռազմավարական գործընկերն է։ «Ֆրոզեն Միթ»-ը նրա բացառիկ ներկայացուցիչն է ՀՀ-ում և ներկայացնում է Biu Biu ապրանքանիշը հայկական շուկայում։</p>
+   <p>2013 թվականից «Չիրինա»-ի թռչնաբուծական արտադրությունը հավատարմագրված է ISO 22000 HACCP ստանդարտով։ Biu Biu հավը բուծվում է առանց հորմոնալ հավելումների և կերակրվում է եգիպտացորենով ու ցորենով։ Արտադրությունը հաստատված է TÜV Austria-ի կողմից։</p>
+   <ul class="certl">
+    <li><b>FSSC 22000</b><span>սննդի անվտանգության համաշխարհային մակարդակ</span></li>
+    <li><b>ISO 22000:2018</b><span>սննդի անվտանգության կառավարման համակարգ</span></li>
+    <li><b>ISO/TS 22002-1:2009</b><span>արտադրության հիգիենայի և մաքրության պահանջներ</span></li>
+    <li><b>FSSC Version 6</b><span>ընդլայնված վերահսկման մեխանիզմներ</span></li>
+   </ul>
+  </div>
+ </div>
+</div></section>
+
+<section class="partners" id="partners"><div class="in">
+ <div class="head">
+  <div><div class="kicker">ԳՈՐԾԸՆԿԵՐՆԵՐ</div><h2>Մեր ապրանքները կարող եք գտնել</h2></div>
+  <p>Մեր ապրանքատեսականին հասանելի է Հայաստանի առաջատար սուպերմարկետներում։</p>
+ </div>
+ <div class="retail">
+  <div><b>MG</b><span>սուպերմարկետների ցանց</span></div>
+  <div><b>Զովք</b><span>սուպերմարկետների ցանց</span></div>
+  <div><b>Տիտան</b><span>սուպերմարկետների ցանց</span></div>
+  <div><b>Ինեսա</b><span>սուպերմարկետ</span></div>
+  <div><b>Carrefour</b><span>հիպերմարկետ</span></div>
+ </div>
+ <h3 class="subh">Միջազգային գործընկերներ</h3>
+ <div class="intl">
+  <span>MN FOOD GROUP LTD</span><span>CHIRINA LTD</span><span>DAMACO FOODS BELGIUM</span><span>ООО «ТОРГОВЫЙ ДОМ ЧЕРКИЗОВО»</span><span>АПХ «МИРАТОРГ»</span><span>ООО «АГРО-ОВЕН»</span><span>ЗАО «МЯСНОЙ ДВОР»</span><span>ГАП «РЕСУРС»</span>
+ </div>
+ <a href="#contact" class="pjoin2">Դարձեք գործընկեր →</a>
+</div></section>
+
+<section class="products" id="products"><div class="in">
+ <div class="head">
+  <div><div class="kicker">ԱՊՐԱՆՔՆԵՐ</div><h2>Ապրանքատեսականի</h2></div>
+  <div class="tabs" id="tabs" role="group" aria-label="Կատեգորիա" data-i18n-aria="_cat">
+   <button type="button" class="on" aria-pressed="true" data-c="all">Բոլորը</button>
+   <button type="button" aria-pressed="false" data-c="fresh">Թարմ հավ</button>
+   <button type="button" aria-pressed="false" data-c="semi">Կիսաֆաբրիկատներ</button>
+   <button type="button" aria-pressed="false" data-c="saus">Նրբերշիկներ</button>
+   <button type="button" aria-pressed="false" data-c="pork">Խոզի միս</button>
+  </div>
+ </div>
+
+ <div class="cat" data-c="fresh">
+  <div class="cathead"><img loading="lazy" decoding="async" src="{{LOGO}}" alt="Biu Biu"><div><h3>Թարմ և սառեցված հավի միս</h3><span>Biu Biu</span></div></div>
+  <div class="grid">
+   <div class="card"><div class="ph"><img loading="lazy" decoding="async" src="{{WHOLE}}" alt=""></div><div class="b"><h4>Թարմ հավ Biu Biu</h4></div></div>
+   <div class="card"><div class="ph"><img loading="lazy" decoding="async" src="{{LEGS}}" alt=""></div><div class="b"><h4>Թարմ հավի ազդր</h4></div></div>
+   <div class="card"><div class="ph none">Լուսանկարը՝ շուտով</div><div class="b"><h4>Թարմ հավի բուդ</h4></div></div>
+   <div class="card"><div class="ph"><img loading="lazy" decoding="async" src="{{WING}}" alt=""></div><div class="b"><h4>Թարմ հավի թև</h4></div></div>
+   <div class="card"><div class="ph"><img loading="lazy" decoding="async" src="{{BONE}}" alt=""></div><div class="b"><h4>Թարմ հավի կրծքամիս ոսկորով</h4></div></div>
+   <div class="card"><div class="ph"><img loading="lazy" decoding="async" src="{{FILLET}}" alt=""></div><div class="b"><h4>Թարմ հավի կրծքամիս առանց ոսկորի</h4></div></div>
+   <div class="card"><div class="ph"><img loading="lazy" decoding="async" class="pk" src="{{PACK}}" alt=""></div><div class="b"><h4>Սառեցված հավի միս Biu Biu</h4></div></div>
+  </div>
+ </div>
+
+ <div class="cat" data-c="semi">
+  <div class="cathead"><img loading="lazy" decoding="async" src="{{LOGO}}" alt="Biu Biu"><div><h3>Հավի մսից կիսաֆաբրիկատներ</h3><span>Biu Biu</span></div></div>
+  <div class="grid">
+   <div class="card"><div class="ph"><img loading="lazy" decoding="async" class="pk" src="{{NUG}}" alt=""></div><div class="b"><h4>Հավի կրծքամսից նագեթս</h4></div></div>
+   <div class="card"><div class="ph"><img loading="lazy" decoding="async" class="pk" src="{{SCHN}}" alt=""></div><div class="b"><h4>Հավի կրծքամսից շնիցել</h4></div></div>
+   <div class="card"><div class="ph"><img loading="lazy" decoding="async" class="pk" src="{{STICKS}}" alt=""></div><div class="b"><h4>Հավի կրծքամսից ձողիկներ</h4></div></div>
+   <div class="card"><div class="ph"><img loading="lazy" decoding="async" class="pk" src="{{CUT}}" alt=""></div><div class="b"><h4>Հավի կոտլետ ընտանեկան</h4></div></div>
+  </div>
+ </div>
+
+ <div class="cat" data-c="saus">
+  <div class="cathead"><img loading="lazy" decoding="async" src="{{LOGO}}" alt="Biu Biu"><div><h3>Նրբերշիկներ</h3><span>Biu Biu</span></div></div>
+  <div class="grid">
+   <div class="card"><div class="ph"><img loading="lazy" decoding="async" class="pk" src="{{SAUS}}" alt=""></div><div class="b"><h4>Հավի նրբերշիկ</h4></div></div>
+   <div class="card"><div class="ph"><img loading="lazy" decoding="async" class="pk" src="{{FRY}}" alt=""></div><div class="b"><h4>Հավի նրբերշիկ BBQ</h4></div></div>
+   <div class="card"><div class="ph none">Լուսանկարը՝ շուտով</div><div class="b"><h4>Հավի նրբերշիկ հատուկ՝ համեմունքներով</h4></div></div>
+  </div>
+ </div>
+
+ <div class="cat" data-c="pork">
+  <div class="cathead"><img loading="lazy" decoding="async" src="{{FMT}}" alt="Frozen Meat" class="fmt"><div><h3>Սառեցված խոզի միս</h3><span>Frozen Meat</span></div></div>
+  <div class="grid">
+   <div class="card"><div class="ph"><img loading="lazy" decoding="async" class="pk" src="{{PHAM}}" alt=""></div><div class="b"><h4>Խոզի բուդ</h4></div></div>
+   <div class="card"><div class="ph"><img loading="lazy" decoding="async" class="pk" src="{{PNECK}}" alt=""></div><div class="b"><h4>Խոզի վզամաս</h4></div></div>
+   <div class="card"><div class="ph none">Լուսանկարը՝ շուտով</div><div class="b"><h4>Խոզի կողիկներ</h4></div></div>
+   <div class="card"><div class="ph none">Լուսանկարը՝ շուտով</div><div class="b"><h4>Խոզի մատեր</h4></div></div>
+   <div class="card"><div class="ph"><img loading="lazy" decoding="async" src="{{PFAT}}" alt=""></div><div class="b"><h4>Խոզի սալ</h4></div></div>
+  </div>
+ </div>
+
+ <div class="note"><div><b>Գնացուցակը՝ ըստ պատվերի ծավալի</b><div style="opacity:.8">Թողեք հայտ, և մենք կուղարկենք գնացուցակը էլ. փոստով։</div></div><a class="btn" href="#contact">Ստանալ գնացուցակ</a></div>
+</div></section>
+
+<section class="contact" id="contact"><div class="in">
+ <div class="kicker">ԿԱՊ</div>
+ <h2>Կապ մեզ հետ</h2>
+ <div class="addr">
+  <div><div class="lbl">ԽԱՆՈՒԹ</div><h3>Գումի շուկա, տաղավար 33</h3><p>Ամեն օր՝ 09:00–18:00</p><a href="https://www.google.com/maps/search/?api=1&query=Գումի+շուկա+Երևան" target="_blank" rel="noopener">Բացել քարտեզում</a></div>
+  <div><div class="lbl">ՊԱՀԵՍՏ</div><h3>Երևան, Արարատյան 62/23</h3><p>Բեռնում՝ նախնական պայմանավորվածությամբ</p><a href="https://www.google.com/maps/search/?api=1&query=Երևան,+Արարատյան+62" target="_blank" rel="noopener">Բացել քարտեզում</a></div>
+  <div><div class="lbl">ՍՈՑԻԱԼԱԿԱՆ ՑԱՆՑԵՐ</div><h3>Biu Biu Armenia</h3><p>Facebook և Instagram</p><div class="soc"><a href="https://www.facebook.com/share/19woPTo2rb/" target="_blank" rel="noopener">Facebook</a><a href="https://www.instagram.com/biubiuarmenia/" target="_blank" rel="noopener">Instagram</a></div></div>
+ </div>
+ <div class="cgrid">
+  <div class="phones">
+   <a href="tel:+37460611001">060 61 10 01</a>
+   <a href="tel:+37499611002">099 61 10 02</a>
+   <dl class="mails">
+    <dt>Ընդհանուր հարցեր</dt><dd><a href="mailto:frozenmeat@gmail.com">frozenmeat@gmail.com</a></dd>
+    <dt>Ֆինանսական հարցեր</dt><dd><a href="mailto:accountant@frozenmeat.am">accountant@frozenmeat.am</a></dd>
+    <dt>Միջազգային կապեր</dt><dd><a href="mailto:commerce@frozenmeat.am">commerce@frozenmeat.am</a></dd>
+    <dt>Մարդկային ռեսուրսներ</dt><dd><a href="mailto:hr@frozenmeat.am">hr@frozenmeat.am</a></dd>
+   </dl>
+  </div>
+  <form id="f" novalidate>
+   <h3>Դառնալ գործընկեր</h3>
+   <div class="two"><label class="fl"><span>Ընկերության անվանում</span><input id="co" name="company" placeholder="Ընկերության անվանում" required maxlength="120" autocomplete="organization"></label><label class="fl"><span>Հեռախոս</span><input id="ph" name="phone" type="tel" inputmode="tel" placeholder="+374 XX XX XX XX" required pattern="\+?[0-9 \(\)\-]{8,20}" autocomplete="tel"></label></div>
+   <div class="two">
+    <label class="fl"><span>Գործունեության տեսակ</span><select id="ty" name="type"><option>Սուպերմարկետ / խանութ</option><option>Ռեստորան / սրճարան</option><option>Ֆասթֆուդ</option><option>Կեյթրինգ</option><option>Այլ</option></select></label>
+    <label class="fl"><span>Ամսական ծավալ</span><select id="vol" name="volume"><option>Ամսական՝ մինչև 200 կգ</option><option>200–1000 կգ</option><option>1000 կգ-ից ավելի</option></select></label>
+   </div>
+   <label class="fl"><span>Հաղորդագրություն</span><textarea id="msg" name="message" maxlength="1000" placeholder="Որ ապրանքներն են Ձեզ հետաքրքրում"></textarea></label>
+   <p class="err" id="err" role="alert" hidden>Խնդրում ենք լրացնել ընկերության անվանումը և ճիշտ հեռախոսահամար։</p>
+   <button class="btn" type="submit">Ուղարկել հայտը</button>
+   <div class="ok" id="ok" role="status" hidden><p>Բացվում է Ձեր էլ. փոստի ծրագիրը՝ պատրաստի նամակով։ Սեղմեք «Ուղարկել»։</p><p>Եթե ծրագիրը չբացվեց, պատճենեք հայտը և ուղարկեք frozenmeat@gmail.com հասցեին կամ զանգահարեք 060 61 10 01։</p><button type="button" class="btn line2" id="copy">Պատճենել հայտը</button> <span id="copied" hidden>Պատճենված է</span></div>
+  </form>
+ </div>
+</div></section>
+
+</main>
+<footer><div class="in"><span style="display:flex;align-items:center;gap:14px"><img loading="lazy" decoding="async" src="{{FMW}}" alt="Frozen Meat" style="height:40px;width:auto">© 2026 «Ֆրոզեն Միթ» ՍՊԸ · Biu Biu ապրանքանիշի ներկայացուցիչ</span><span>frozenmeat.am</span></div></footer>
+
+<script>
+document.querySelectorAll("#tabs button").forEach(b=>b.onclick=()=>{document.querySelectorAll("#tabs button").forEach(x=>{x.classList.toggle("on",x===b);x.setAttribute("aria-pressed",x===b)});const c=b.dataset.c;document.querySelectorAll(".cat").forEach(el=>el.hidden=!(c==="all"||el.dataset.c===c))});
+(function(){
+ const f=document.getElementById("f"),ok=document.getElementById("ok"),err=document.getElementById("err");
+ const v=id=>document.getElementById(id).value.trim();
+ let last="";
+ f.addEventListener("submit",e=>{e.preventDefault();
+  if(!f.checkValidity()){err.hidden=false;ok.hidden=true;const bad=f.querySelector(":invalid");if(bad)bad.focus();return}
+  err.hidden=true;
+  last=T("_co")+": "+v("co")+"\n"+T("_ph")+": "+v("ph")+"\n"+T("_ty")+": "+v("ty")+"\n"+T("_vol")+": "+v("vol")+"\n\n"+v("msg");
+  ok.hidden=false;document.getElementById("copied").hidden=true;
+  window.location.href="mailto:frozenmeat@gmail.com?subject="+encodeURIComponent(T("_subj")+v("co"))+"&body="+encodeURIComponent(last);
+ });
+ f.addEventListener("input",()=>{if(!err.hidden&&f.checkValidity())err.hidden=true});
+ document.getElementById("copy").addEventListener("click",()=>{
+  const done=()=>{document.getElementById("copied").hidden=false};
+  const fallback=()=>{const t=document.createElement("textarea");t.value=last;t.setAttribute("readonly","");t.style.position="fixed";t.style.opacity="0";document.body.appendChild(t);t.select();try{document.execCommand("copy");done()}catch(e){}t.remove()};
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(last).then(done,fallback)}else fallback();
+ });
+})();
+</script>
+<script>
+const I18N={"ru": {"ՆԵՐԿԱՅԱՑՈՒՑԻՉ": "ПРЕДСТАВИТЕЛЬ", "Մեր մասին": "О нас", "Գործընկերներ": "Партнёры", "Ապրանքներ": "Продукция", "Կապ": "Контакты", "Դառնալ գործընկեր": "Стать партнёром", "ՄԵԾԱԾԱԽ ՄԱՏԱԿԱՐԱՐՈՒՄ": "ОПТОВЫЕ ПОСТАВКИ", "Հավի մսի արտադրանք": "Куриное мясо бренда", "ապրանքանիշով": "", "«Ֆրոզեն Միթ» ընկերությունը Հայաստանում ներկայացնում է Biu Biu ապրանքանիշը և մեծածախ մատակարարում է եգիպտացորենով ու ցորենով կերակրված հավի թարմ միս։": "Компания «Фрозен Мит» представляет бренд Biu Biu в Армении и поставляет оптом свежее мясо кур, выращенных на кукурузе и пшенице.", "Ստանալ գնացուցակ": "Получить прайс-лист", "Թարմ հավի միս": "Свежее куриное мясо", "Biu Biu ապրանքանիշ": "бренд Biu Biu", "Եգիպտացորեն և ցորեն": "Кукуруза и пшеница", "հավերի սնունդը": "рацион кур", "հաստատված TÜV Austria-ի կողմից": "подтверждено TÜV Austria", "Մեծածախ": "Оптом", "անհատական պայմաններ": "индивидуальные условия", "«Ֆրոզեն Միթ» ՍՊԸ": "ООО «Фрозен Мит»", "Biu Biu-ի ներկայացուցիչը Հայաստանում": "представитель Biu Biu в Армении", "ՄԵՐ ՄԱՍԻՆ": "О НАС", "Եգիպտացորենով և ցորենով կերակրված հավ": "Курица на кукурузе и пшенице", "«Ֆրոզեն Միթ» ՍՊԸ-ն մսամթերք ներմուծող ընկերություն է, որը Հայաստանում ներկայացնում է Biu Biu ապրանքանիշը։": "ООО «Фрозен Мит» — компания-импортёр мясной продукции, представляющая бренд Biu Biu в Армении.", "Biu Biu հավերը կերակրվում են եգիպտացորենով և ցորենով։ Մենք մատակարարում ենք թարմ հավի միս սուպերմարկետներին, խանութներին և հանրային սննդի կետերին։": "Куры Biu Biu выращиваются на кукурузе и пшенице. Мы поставляем свежее куриное мясо в супермаркеты, магазины и заведения общепита.", "Միջազգային սերտիֆիկացում": "Международная сертификация", "Սննդի անվտանգության և որակի պահանջները հաստատված են TÜV Austria-ի կողմից": "Соответствие требованиям безопасности и качества пищевой продукции подтверждено TÜV Austria", "սննդի անվտանգության համաշխարհային մակարդակ": "мировой уровень безопасности пищевой продукции", "սննդի անվտանգության կառավարման համակարգ": "система менеджмента безопасности пищевой продукции", "արտադրության հիգիենայի և մաքրության պահանջներ": "требования к гигиене и чистоте производства", "ընդլայնված վերահսկման մեխանիզմներ": "расширенные механизмы контроля", "ԳՈՐԾԸՆԿԵՐՆԵՐ": "ПАРТНЁРЫ", "Մեզ վստահում են": "Нам доверяют", "Biu Biu-ի հավի միսը հասանելի է Հայաստանի սուպերմարկետների ցանցերում։": "Курица Biu Biu продаётся в сетях супермаркетов Армении.", "սուպերմարկետների ցանց": "сеть супермаркетов", "Զովք": "Zovq", "Ձեր ընկերությունը": "Ваша компания", "Դարձեք գործընկեր →": "Станьте партнёром →", "ԱՊՐԱՆՔՆԵՐ": "ПРОДУКЦИЯ", "Biu Biu ապրանքանիշի ամբողջ տեսականին՝ մեծածախ": "Весь ассортимент Biu Biu — оптом", "ԹԱՐՄ": "СВЕЖЕЕ", "Ամբողջական հավ՝ Biu Biu փաթեթավորմամբ": "Целая курица в упаковке Biu Biu", "ՓԱԹԵԹԱՎՈՐՈՒՄ": "УПАКОВКА", "Biu Biu փաթեթ": "Упаковка Biu Biu", "Եգիպտացորենով կերակրված հավ": "Курица, выращенная на кукурузе", "Թարմ հավի կրծքամիս": "Свежее куриное филе", "Թարմ հավի ազդր": "Свежее куриное бедро", "Թարմ հավի թև": "Свежие куриные крылья", "Լուսանկարը՝ շուտով": "Фото скоро", "Թարմ հավի բուդ": "Свежая куриная голень", "Գնացուցակը՝ ըստ պատվերի ծավալի": "Цены зависят от объёма заказа", "Թողեք հայտ, և մենք կուղարկենք գնացուցակը էլ. փոստով։": "Оставьте заявку, и мы отправим прайс-лист по электронной почте.", "ԿԱՊ": "КОНТАКТЫ", "Կապ մեզ հետ": "Свяжитесь с нами", "ԽԱՆՈՒԹ": "МАГАЗИН", "Գումի շուկա, տաղավար 33": "Рынок ГУМ, павильон 33", "Ամեն օր՝ 09:00–18:00": "Ежедневно: 09:00–18:00", "Բացել քարտեզում": "Открыть на карте", "ՊԱՀԵՍՏ": "СКЛАД", "Երևան, Արարատյան 62/23": "Ереван, ул. Араратян 62/23", "Բեռնում՝ նախնական պայմանավորվածությամբ": "Отгрузка по предварительной договорённости", "ՍՈՑԻԱԼԱԿԱՆ ՑԱՆՑԵՐ": "СОЦСЕТИ", "Instagram՝ @biubiuarmenia": "Instagram: @biubiuarmenia", "Facebook՝ Biu Biu Armenia": "Facebook: Biu Biu Armenia", "Բացել Instagram-ը": "Открыть Instagram", "Սուպերմարկետ / խանութ": "Супермаркет / магазин", "Ռեստորան / սրճարան": "Ресторан / кафе", "Ֆասթֆուդ": "Фастфуд", "Կեյթրինգ": "Кейтеринг", "Այլ": "Другое", "Ամսական՝ մինչև 200 կգ": "В месяц: до 200 кг", "200–1000 կգ": "200–1000 кг", "1000 կգ-ից ավելի": "Более 1000 кг", "Ուղարկել հայտը": "Отправить заявку", "Ձեր էլ. փոստի ծրագիրը կբացվի պատրաստի նամակով։ Սեղմեք «Ուղարկել»։": "Откроется ваша почтовая программа с готовым письмом. Нажмите «Отправить».", "© 2026 «Ֆրոզեն Միթ» ՍՊԸ": "© 2026 ООО «Фрозен Мит»", "Ընկերության անվանում": "Название компании", "Հեռախոս": "Телефон", "Որ ապրանքներն են Ձեզ հետաքրքրում": "Какая продукция вас интересует", "_subj": "Заявка на сотрудничество: ", "_co": "Компания", "_ph": "Телефон", "_ty": "Тип", "_vol": "Объём", "ՄՍԱՄԹԵՐՔԻ ՆԵՐՄՈՒԾՈՒՄ": "ИМПОРТ МЯСНОЙ ПРОДУКЦИИ", "Մսամթերքի ներմուծում և մեծածախ մատակարարում": "Импорт и оптовые поставки мясной продукции", "«Ֆրոզեն Միթ» ՍՊԸ-ն մատակարարում է թարմ հավի միս Հայաստանի սուպերմարկետներին, խանութներին և հանրային սննդի կետերին։": "ООО «Фрозен Мит» поставляет свежее куриное мясо в супермаркеты, магазины и заведения общепита Армении.", "Ներկայացնում ենք Հայաստանում": "Представляем в Армении", "Biu Biu ապրանքանիշը": "бренд Biu Biu", "մեծածախ մատակարարում": "оптовые поставки", "պաշտոնական ներկայացուցիչ": "официальный представитель", "«Ֆրոզեն Միթ» ՍՊԸ-ն մսամթերք ներմուծող ընկերություն է։ Մենք մատակարարում ենք որակյալ թարմ հավի միս սուպերմարկետների ցանցերին, խանութներին և հանրային սննդի կետերին։": "ООО «Фрозен Мит» — компания-импортёр мясной продукции. Мы поставляем качественное свежее куриное мясо в сети супермаркетов, магазины и заведения общепита.", "Հայաստանում մենք ներկայացնում ենք Biu Biu ապրանքանիշը։": "В Армении мы представляем бренд Biu Biu.", "Ներմուծում": "Импорт", "միջազգային սերտիֆիկացված արտադրանք": "продукция с международной сертификацией", "Սառը շղթա": "Холодовая цепь", "պահեստից մինչև Ձեր դարակ": "от склада до вашей полки", "Սեփական խանութ": "Собственный магазин", "ՆԵՐԿԱՅԱՑՎՈՂ ԱՊՐԱՆՔԱՆԻՇ": "ПРЕДСТАВЛЯЕМЫЙ БРЕНД", "Biu Biu հավերը կերակրվում են եգիպտացորենով և ցորենով։ Սննդի անվտանգության և որակի պահանջները հաստատված են TÜV Austria-ի կողմից։": "Куры Biu Biu выращиваются на кукурузе и пшенице. Соответствие требованиям безопасности и качества подтверждено TÜV Austria.", "Մեր մատակարարած Biu Biu հավի միսը հասանելի է Հայաստանի սուպերմարկետների ցանցերում։": "Поставляемая нами курица Biu Biu продаётся в сетях супермаркетов Армении.", "Biu Biu ապրանքանիշի տեսականին՝ մեծածախ": "Ассортимент бренда Biu Biu — оптом", "© 2026 «Ֆրոզեն Միթ» ՍՊԸ · Biu Biu ապրանքանիշի ներկայացուցիչ": "© 2026 ООО «Фрозен Мит» · представитель бренда Biu Biu", "20 տարուց ավելի փորձ ունեցող ընկերություն։ Ներմուծում ենք թարմ և սառեցված միս ու մսային արտադրանք և մատակարարում Հայաստանի սուպերմարկետներին, խանութներին և հանրային սննդի կետերին։": "Компания с опытом более 20 лет. Мы импортируем свежее и замороженное мясо и мясную продукцию и поставляем их в супермаркеты, магазины и заведения общепита Армении.", "Բացառիկ ներկայացուցիչ ՀՀ-ում": "Эксклюзивный представитель в Армении", "20+ տարի": "20+ лет", "մսամթերքի շուկայում": "на рынке мясной продукции", "բացառիկ ներկայացուցիչ ՀՀ-ում": "эксклюзивный представитель в Армении", "6 երկիր": "6 стран", "միջազգային գործընկերներ": "международные партнёры", "Մեծածախ և մանրածախ": "Опт и розница", "թարմ և սառեցված միս": "свежее и замороженное мясо", "«Ֆրոզեն Միթ» ընկերությունը մսամթերքի ներմուծման և վաճառքի ոլորտում ունի ավելի քան 20 տարվա աշխատանքային փորձ։ Մինչև 2020 թվականը ընկերությունը շուկայում գործել է այլ անվան ներքո՝ տարիների ընթացքում կուտակելով մասնագիտական հարուստ փորձ և ձևավորելով վստահելի գործընկերային հարաբերություններ։": "Компания «Фрозен Мит» работает в сфере импорта и продажи мясной продукции более 20 лет. До 2020 года компания работала на рынке под другим названием, накопив за эти годы богатый профессиональный опыт и надёжные партнёрские отношения.", "Ընկերության հիմնական գործունեությունը թարմ և սառեցված մսի ու մսային արտադրանքի ներմուծումն է, մեծածախ և մանրածախ վաճառքը։ Այսօր «Ֆրոզեն Միթ»-ը Հայաստանի մսամթերքի շուկայի խոշոր և կայացած ընկերություններից է և ՀՀ խոշոր հարկատուներից մեկը։": "Основная деятельность компании — импорт свежего и замороженного мяса и мясной продукции, оптовая и розничная торговля. Сегодня «Фрозен Мит» — одна из крупных и устоявшихся компаний на мясном рынке Армении и один из крупных налогоплательщиков РА.", "Ընկերությունը սերտ գործարար կապեր ունի եվրոպական, ռուսական, վրացական, չինական, ամերիկյան և ուկրաինական առաջատար արտադրողների ու մատակարարների հետ և նրանցից մի քանիսի պաշտոնական ու բացառիկ ներկայացուցիչն է Հայաստանում։": "Компания поддерживает тесные деловые связи с ведущими производителями и поставщиками из Европы, России, Грузии, Китая, США и Украины и является официальным и эксклюзивным представителем некоторых из них в Армении.", "ԲԱՑԱՌԻԿ ՆԵՐԿԱՅԱՑՈՒՑԻՉ ՀՀ-ՈՒՄ": "ЭКСКЛЮЗИВНЫЙ ПРЕДСТАВИТЕЛЬ В АРМЕНИИ", "Վրացական «Չիրինա» (CHIRINA LTD) ընկերությունը մեր ռազմավարական գործընկերն է։ «Ֆրոզեն Միթ»-ը նրա բացառիկ ներկայացուցիչն է ՀՀ-ում և ներկայացնում է Biu Biu ապրանքանիշը հայկական շուկայում։": "Грузинская компания «Чирина» (CHIRINA LTD) — наш стратегический партнёр. «Фрозен Мит» является её эксклюзивным представителем в Армении и представляет бренд Biu Biu на армянском рынке.", "2013 թվականից «Չիրինա»-ի թռչնաբուծական արտադրությունը հավատարմագրված է ISO 22000 HACCP ստանդարտով։ Biu Biu հավը բուծվում է առանց հորմոնալ հավելումների և կերակրվում է եգիպտացորենով ու ցորենով։ Արտադրությունը հաստատված է TÜV Austria-ի կողմից։": "С 2013 года птицеводческое производство «Чирина» сертифицировано по стандарту ISO 22000 HACCP. Курица Biu Biu выращивается без гормональных добавок на кукурузе и пшенице. Производство подтверждено TÜV Austria.", "Մեր ապրանքները կարող եք գտնել": "Где купить нашу продукцию", "Մեր ապրանքատեսականին հասանելի է Հայաստանի առաջատար սուպերմարկետներում։": "Наш ассортимент представлен в ведущих супермаркетах Армении.", "Տիտան": "Титан", "Ինեսա": "Инеса", "սուպերմարկետ": "супермаркет", "հիպերմարկետ": "гипермаркет", "Միջազգային գործընկերներ": "Международные партнёры", "Ապրանքատեսականի": "Ассортимент", "Բոլորը": "Все", "Թարմ հավ": "Свежая курица", "Կիսաֆաբրիկատներ": "Полуфабрикаты", "Նրբերշիկներ": "Сосиски", "Խոզի միս": "Свинина", "Թարմ և սառեցված հավի միս": "Свежее и замороженное куриное мясо", "Թարմ հավ Biu Biu": "Свежая курица Biu Biu", "Թարմ հավի կրծքամիս ոսկորով": "Свежая куриная грудка на кости", "Թարմ հավի կրծքամիս առանց ոսկորի": "Свежее куриное филе без кости", "Սառեցված հավի միս Biu Biu": "Замороженное куриное мясо Biu Biu", "Հավի մսից կիսաֆաբրիկատներ": "Полуфабрикаты из курицы", "Հավի կրծքամսից նագեթս": "Наггетсы из куриной грудки", "Հավի կրծքամսից շնիցել": "Шницель из куриной грудки", "Հավի կրծքամսից ձողիկներ": "Палочки из куриной грудки", "Հավի կոտլետ ընտանեկան": "Котлеты куриные «Семейные»", "Հավի նրբերշիկ": "Куриные сосиски", "Հավի նրբերշիկ BBQ": "Куриные сосиски BBQ", "Հավի նրբերշիկ հատուկ՝ համեմունքներով": "Куриные сосиски особые, со специями", "Սառեցված խոզի միս": "Замороженная свинина", "Խոզի բուդ": "Свиной окорок", "Խոզի վզամաս": "Свиная шейка", "Խոզի կողիկներ": "Свиные рёбра", "Խոզի մատեր": "Свиная вырезка", "Խոզի սալ": "Свиное сало", "Facebook և Instagram": "Facebook и Instagram", "Ընդհանուր հարցեր": "Общие вопросы", "Ֆինանսական հարցեր": "Финансовые вопросы", "Միջազգային կապեր": "Международные связи", "Մարդկային ռեսուրսներ": "Отдел кадров", "Գործունեության տեսակ": "Тип деятельности", "Ամսական ծավալ": "Ежемесячный объём", "Հաղորդագրություն": "Сообщение", "Խնդրում ենք լրացնել ընկերության անվանումը և ճիշտ հեռախոսահամար։": "Пожалуйста, укажите название компании и корректный номер телефона.", "Բացվում է Ձեր էլ. փոստի ծրագիրը՝ պատրաստի նամակով։ Սեղմեք «Ուղարկել»։": "Открывается ваша почтовая программа с готовым письмом. Нажмите «Отправить».", "Եթե ծրագիրը չբացվեց, պատճենեք հայտը և ուղարկեք frozenmeat@gmail.com հասցեին կամ զանգահարեք 060 61 10 01։": "Если программа не открылась, скопируйте заявку и отправьте её на frozenmeat@gmail.com или позвоните по номеру 060 61 10 01.", "Պատճենել հայտը": "Скопировать заявку", "Պատճենված է": "Скопировано", "_title": "Frozen Meat — ООО «Фрозен Мит»", "_cat": "Категория", "_hen": "Белая курица рядом с кукурузой и пшеницей", "_farm": "Бабушка кормит кур кукурузой у поля"}, "en": {"ՆԵՐԿԱՅԱՑՈՒՑԻՉ": "REPRESENTATIVE", "Մեր մասին": "About us", "Գործընկերներ": "Partners", "Ապրանքներ": "Products", "Կապ": "Contact", "Դառնալ գործընկեր": "Become a partner", "ՄԵԾԱԾԱԽ ՄԱՏԱԿԱՐԱՐՈՒՄ": "WHOLESALE SUPPLY", "Հավի մսի արտադրանք": "Fresh chicken by", "ապրանքանիշով": "", "«Ֆրոզեն Միթ» ընկերությունը Հայաստանում ներկայացնում է Biu Biu ապրանքանիշը և մեծածախ մատակարարում է եգիպտացորենով ու ցորենով կերակրված հավի թարմ միս։": "Frozen Meat LLC represents the Biu Biu brand in Armenia and supplies fresh chicken from corn- and wheat-fed birds wholesale.", "Ստանալ գնացուցակ": "Get the price list", "Թարմ հավի միս": "Fresh chicken", "Biu Biu ապրանքանիշ": "Biu Biu brand", "Եգիպտացորեն և ցորեն": "Corn and wheat", "հավերի սնունդը": "what the chickens eat", "հաստատված TÜV Austria-ի կողմից": "verified by TÜV Austria", "Մեծածախ": "Wholesale", "անհատական պայմաններ": "individual terms", "«Ֆրոզեն Միթ» ՍՊԸ": "Frozen Meat LLC", "Biu Biu-ի ներկայացուցիչը Հայաստանում": "Biu Biu representative in Armenia", "ՄԵՐ ՄԱՍԻՆ": "ABOUT US", "Եգիպտացորենով և ցորենով կերակրված հավ": "Corn- and wheat-fed chicken", "«Ֆրոզեն Միթ» ՍՊԸ-ն մսամթերք ներմուծող ընկերություն է, որը Հայաստանում ներկայացնում է Biu Biu ապրանքանիշը։": "Frozen Meat LLC is a meat import company that represents the Biu Biu brand in Armenia.", "Biu Biu հավերը կերակրվում են եգիպտացորենով և ցորենով։ Մենք մատակարարում ենք թարմ հավի միս սուպերմարկետներին, խանութներին և հանրային սննդի կետերին։": "Biu Biu chickens are fed on corn and wheat. We supply fresh chicken to supermarkets, shops and food service businesses.", "Միջազգային սերտիֆիկացում": "International certification", "Սննդի անվտանգության և որակի պահանջները հաստատված են TÜV Austria-ի կողմից": "Food safety and quality compliance is verified by TÜV Austria", "սննդի անվտանգության համաշխարհային մակարդակ": "global food safety standard", "սննդի անվտանգության կառավարման համակարգ": "food safety management system", "արտադրության հիգիենայի և մաքրության պահանջներ": "production hygiene and cleanliness requirements", "ընդլայնված վերահսկման մեխանիզմներ": "extended control mechanisms", "ԳՈՐԾԸՆԿԵՐՆԵՐ": "PARTNERS", "Մեզ վստահում են": "Trusted by", "Biu Biu-ի հավի միսը հասանելի է Հայաստանի սուպերմարկետների ցանցերում։": "Biu Biu chicken is available in supermarket chains across Armenia.", "սուպերմարկետների ցանց": "supermarket chain", "Զովք": "Zovq", "Ձեր ընկերությունը": "Your company", "Դարձեք գործընկեր →": "Become a partner →", "ԱՊՐԱՆՔՆԵՐ": "PRODUCTS", "Biu Biu ապրանքանիշի ամբողջ տեսականին՝ մեծածախ": "The full Biu Biu range, wholesale", "ԹԱՐՄ": "FRESH", "Ամբողջական հավ՝ Biu Biu փաթեթավորմամբ": "Whole chicken in Biu Biu packaging", "ՓԱԹԵԹԱՎՈՐՈՒՄ": "PACKAGING", "Biu Biu փաթեթ": "Biu Biu pack", "Եգիպտացորենով կերակրված հավ": "Corn-fed chicken", "Թարմ հավի կրծքամիս": "Fresh chicken breast", "Թարմ հավի ազդր": "Fresh chicken thigh", "Թարմ հավի թև": "Fresh chicken wings", "Լուսանկարը՝ շուտով": "Photo coming soon", "Թարմ հավի բուդ": "Fresh chicken drumstick", "Գնացուցակը՝ ըստ պատվերի ծավալի": "Pricing depends on order volume", "Թողեք հայտ, և մենք կուղարկենք գնացուցակը էլ. փոստով։": "Send a request and we will email you the price list.", "ԿԱՊ": "CONTACT", "Կապ մեզ հետ": "Get in touch", "ԽԱՆՈՒԹ": "SHOP", "Գումի շուկա, տաղավար 33": "GUM Market, stall 33", "Ամեն օր՝ 09:00–18:00": "Daily: 09:00–18:00", "Բացել քարտեզում": "Open in maps", "ՊԱՀԵՍՏ": "WAREHOUSE", "Երևան, Արարատյան 62/23": "62/23 Araratyan St, Yerevan", "Բեռնում՝ նախնական պայմանավորվածությամբ": "Loading by prior arrangement", "ՍՈՑԻԱԼԱԿԱՆ ՑԱՆՑԵՐ": "SOCIAL MEDIA", "Instagram՝ @biubiuarmenia": "Instagram: @biubiuarmenia", "Facebook՝ Biu Biu Armenia": "Facebook: Biu Biu Armenia", "Բացել Instagram-ը": "Open Instagram", "Սուպերմարկետ / խանութ": "Supermarket / shop", "Ռեստորան / սրճարան": "Restaurant / café", "Ֆասթֆուդ": "Fast food", "Կեյթրինգ": "Catering", "Այլ": "Other", "Ամսական՝ մինչև 200 կգ": "Monthly: up to 200 kg", "200–1000 կգ": "200–1000 kg", "1000 կգ-ից ավելի": "Over 1000 kg", "Ուղարկել հայտը": "Send request", "Ձեր էլ. փոստի ծրագիրը կբացվի պատրաստի նամակով։ Սեղմեք «Ուղարկել»։": "Your email app will open with a ready message. Press Send.", "© 2026 «Ֆրոզեն Միթ» ՍՊԸ": "© 2026 Frozen Meat LLC", "Ընկերության անվանում": "Company name", "Հեռախոս": "Phone", "Որ ապրանքներն են Ձեզ հետաքրքրում": "Which products interest you", "_subj": "Partnership request: ", "_co": "Company", "_ph": "Phone", "_ty": "Type", "_vol": "Volume", "ՄՍԱՄԹԵՐՔԻ ՆԵՐՄՈՒԾՈՒՄ": "MEAT IMPORT", "Մսամթերքի ներմուծում և մեծածախ մատակարարում": "Meat import and wholesale supply", "«Ֆրոզեն Միթ» ՍՊԸ-ն մատակարարում է թարմ հավի միս Հայաստանի սուպերմարկետներին, խանութներին և հանրային սննդի կետերին։": "Frozen Meat LLC supplies fresh chicken to supermarkets, shops and food service businesses in Armenia.", "Ներկայացնում ենք Հայաստանում": "Represented in Armenia", "Biu Biu ապրանքանիշը": "the Biu Biu brand", "մեծածախ մատակարարում": "wholesale supply", "պաշտոնական ներկայացուցիչ": "official representative", "«Ֆրոզեն Միթ» ՍՊԸ-ն մսամթերք ներմուծող ընկերություն է։ Մենք մատակարարում ենք որակյալ թարմ հավի միս սուպերմարկետների ցանցերին, խանութներին և հանրային սննդի կետերին։": "Frozen Meat LLC is a meat import company. We supply quality fresh chicken to supermarket chains, shops and food service businesses.", "Հայաստանում մենք ներկայացնում ենք Biu Biu ապրանքանիշը։": "In Armenia, we represent the Biu Biu brand.", "Ներմուծում": "Import", "միջազգային սերտիֆիկացված արտադրանք": "internationally certified products", "Սառը շղթա": "Cold chain", "պահեստից մինչև Ձեր դարակ": "from our warehouse to your shelf", "Սեփական խանութ": "Our own shop", "ՆԵՐԿԱՅԱՑՎՈՂ ԱՊՐԱՆՔԱՆԻՇ": "REPRESENTED BRAND", "Biu Biu հավերը կերակրվում են եգիպտացորենով և ցորենով։ Սննդի անվտանգության և որակի պահանջները հաստատված են TÜV Austria-ի կողմից։": "Biu Biu chickens are fed on corn and wheat. Food safety and quality compliance is verified by TÜV Austria.", "Մեր մատակարարած Biu Biu հավի միսը հասանելի է Հայաստանի սուպերմարկետների ցանցերում։": "The Biu Biu chicken we supply is available in supermarket chains across Armenia.", "Biu Biu ապրանքանիշի տեսականին՝ մեծածախ": "The Biu Biu range, wholesale", "© 2026 «Ֆրոզեն Միթ» ՍՊԸ · Biu Biu ապրանքանիշի ներկայացուցիչ": "© 2026 Frozen Meat LLC · Biu Biu brand representative", "20 տարուց ավելի փորձ ունեցող ընկերություն։ Ներմուծում ենք թարմ և սառեցված միս ու մսային արտադրանք և մատակարարում Հայաստանի սուպերմարկետներին, խանութներին և հանրային սննդի կետերին։": "A company with over 20 years of experience. We import fresh and frozen meat and meat products and supply supermarkets, shops and food service businesses across Armenia.", "Բացառիկ ներկայացուցիչ ՀՀ-ում": "Exclusive representative in Armenia", "20+ տարի": "20+ years", "մսամթերքի շուկայում": "in the meat market", "բացառիկ ներկայացուցիչ ՀՀ-ում": "exclusive representative in Armenia", "6 երկիր": "6 countries", "միջազգային գործընկերներ": "international partners", "Մեծածախ և մանրածախ": "Wholesale and retail", "թարմ և սառեցված միս": "fresh and frozen meat", "«Ֆրոզեն Միթ» ընկերությունը մսամթերքի ներմուծման և վաճառքի ոլորտում ունի ավելի քան 20 տարվա աշխատանքային փորձ։ Մինչև 2020 թվականը ընկերությունը շուկայում գործել է այլ անվան ներքո՝ տարիների ընթացքում կուտակելով մասնագիտական հարուստ փորձ և ձևավորելով վստահելի գործընկերային հարաբերություններ։": "Frozen Meat has more than 20 years of experience in importing and selling meat products. Until 2020 the company operated under a different name, building deep professional expertise and reliable partnerships over the years.", "Ընկերության հիմնական գործունեությունը թարմ և սառեցված մսի ու մսային արտադրանքի ներմուծումն է, մեծածախ և մանրածախ վաճառքը։ Այսօր «Ֆրոզեն Միթ»-ը Հայաստանի մսամթերքի շուկայի խոշոր և կայացած ընկերություններից է և ՀՀ խոշոր հարկատուներից մեկը։": "The company's core business is importing fresh and frozen meat and meat products and selling them wholesale and retail. Today Frozen Meat is one of the large, established companies in Armenia's meat market and one of the country's major taxpayers.", "Ընկերությունը սերտ գործարար կապեր ունի եվրոպական, ռուսական, վրացական, չինական, ամերիկյան և ուկրաինական առաջատար արտադրողների ու մատակարարների հետ և նրանցից մի քանիսի պաշտոնական ու բացառիկ ներկայացուցիչն է Հայաստանում։": "The company works closely with leading producers and suppliers from Europe, Russia, Georgia, China, the USA and Ukraine, and is the official and exclusive representative of several of them in Armenia.", "ԲԱՑԱՌԻԿ ՆԵՐԿԱՅԱՑՈՒՑԻՉ ՀՀ-ՈՒՄ": "EXCLUSIVE REPRESENTATIVE IN ARMENIA", "Վրացական «Չիրինա» (CHIRINA LTD) ընկերությունը մեր ռազմավարական գործընկերն է։ «Ֆրոզեն Միթ»-ը նրա բացառիկ ներկայացուցիչն է ՀՀ-ում և ներկայացնում է Biu Biu ապրանքանիշը հայկական շուկայում։": "The Georgian company CHIRINA LTD is our strategic partner. Frozen Meat is its exclusive representative in Armenia and brings the Biu Biu brand to the Armenian market.", "2013 թվականից «Չիրինա»-ի թռչնաբուծական արտադրությունը հավատարմագրված է ISO 22000 HACCP ստանդարտով։ Biu Biu հավը բուծվում է առանց հորմոնալ հավելումների և կերակրվում է եգիպտացորենով ու ցորենով։ Արտադրությունը հաստատված է TÜV Austria-ի կողմից։": "Since 2013 CHIRINA's poultry production has been certified to ISO 22000 HACCP. Biu Biu chickens are raised without hormone additives and fed on corn and wheat. Production is verified by TÜV Austria.", "Մեր ապրանքները կարող եք գտնել": "Where to find our products", "Մեր ապրանքատեսականին հասանելի է Հայաստանի առաջատար սուպերմարկետներում։": "Our range is available in Armenia's leading supermarkets.", "Տիտան": "Titan", "Ինեսա": "Inesa", "սուպերմարկետ": "supermarket", "հիպերմարկետ": "hypermarket", "Միջազգային գործընկերներ": "International partners", "Ապրանքատեսականի": "Product range", "Բոլորը": "All", "Թարմ հավ": "Fresh chicken", "Կիսաֆաբրիկատներ": "Semi-finished", "Նրբերշիկներ": "Sausages", "Խոզի միս": "Pork", "Թարմ և սառեցված հավի միս": "Fresh and frozen chicken", "Թարմ հավ Biu Biu": "Fresh Biu Biu chicken", "Թարմ հավի կրծքամիս ոսկորով": "Fresh bone-in chicken breast", "Թարմ հավի կրծքամիս առանց ոսկորի": "Fresh boneless chicken breast", "Սառեցված հավի միս Biu Biu": "Frozen Biu Biu chicken", "Հավի մսից կիսաֆաբրիկատներ": "Chicken semi-finished products", "Հավի կրծքամսից նագեթս": "Chicken breast nuggets", "Հավի կրծքամսից շնիցել": "Chicken breast schnitzel", "Հավի կրծքամսից ձողիկներ": "Chicken breast sticks", "Հավի կոտլետ ընտանեկան": "Family chicken cutlets", "Հավի նրբերշիկ": "Chicken sausages", "Հավի նրբերշիկ BBQ": "BBQ chicken sausages", "Հավի նրբերշիկ հատուկ՝ համեմունքներով": "Special spiced chicken sausages", "Սառեցված խոզի միս": "Frozen pork", "Խոզի բուդ": "Pork leg", "Խոզի վզամաս": "Pork neck", "Խոզի կողիկներ": "Pork ribs", "Խոզի մատեր": "Pork tenderloin", "Խոզի սալ": "Pork fat", "Facebook և Instagram": "Facebook and Instagram", "Ընդհանուր հարցեր": "General enquiries", "Ֆինանսական հարցեր": "Finance", "Միջազգային կապեր": "International relations", "Մարդկային ռեսուրսներ": "Human resources", "Գործունեության տեսակ": "Business type", "Ամսական ծավալ": "Monthly volume", "Հաղորդագրություն": "Message", "Խնդրում ենք լրացնել ընկերության անվանումը և ճիշտ հեռախոսահամար։": "Please enter your company name and a valid phone number.", "Բացվում է Ձեր էլ. փոստի ծրագիրը՝ պատրաստի նամակով։ Սեղմեք «Ուղարկել»։": "Your email app is opening with a ready message. Press Send.", "Եթե ծրագիրը չբացվեց, պատճենեք հայտը և ուղարկեք frozenmeat@gmail.com հասցեին կամ զանգահարեք 060 61 10 01։": "If nothing opened, copy your request and send it to frozenmeat@gmail.com or call 060 61 10 01.", "Պատճենել հայտը": "Copy request", "Պատճենված է": "Copied", "_title": "Frozen Meat — Frozen Meat LLC", "_cat": "Category", "_hen": "White hen next to corn and wheat", "_farm": "A grandmother feeding chickens corn by a field"}, "hy": {"_subj": "Գործընկերության հայտ՝ ", "_co": "Ընկերություն", "_ph": "Հեռախոս", "_ty": "Տեսակ", "_vol": "Ծավալ", "_title": "Frozen Meat — Ֆրոզեն Միթ", "_cat": "Կատեգորիա", "_hen": "Սպիտակ հավ եգիպտացորենի և ցորենի կողքին", "_farm": "Տատիկը եգիպտացորենով կերակրում է հավերին դաշտի մոտ"}};
+(function(){
+ const nodes=[];const w=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);let n;
+ while(n=w.nextNode()){const p=n.parentElement;if(!p||p.closest("script,style,.langs"))continue;const t=n.nodeValue.trim();if(t&&I18N.ru[t]!==undefined)nodes.push([n,t,n.nodeValue])}
+ const ph=[...document.querySelectorAll("[placeholder]")].map(e=>[e,e.placeholder]);
+ window.T=k=>{const l=document.documentElement.lang;return l==="hy"?(I18N.hy[k]||k):(I18N[l][k]||I18N.hy[k]||k)};
+ window.setLang=function(l){
+  document.documentElement.lang=l;
+  for(const [n,t,orig] of nodes){n.nodeValue=l==="hy"?orig:orig.replace(t,I18N[l][t])}
+  for(const [e,t] of ph){e.placeholder=l==="hy"?t:(I18N[l][t]||t)}
+  document.querySelectorAll(".langs button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.l===l));
+  document.title=T("_title");
+  document.querySelectorAll("[data-i18n-aria]").forEach(e=>e.setAttribute("aria-label",T(e.dataset.i18nAria)));
+  document.querySelectorAll("[data-i18n-alt]").forEach(e=>e.alt=T(e.dataset.i18nAlt));
+  try{localStorage.setItem("lang",l)}catch(e){}
+ };
+ document.querySelectorAll(".langs button").forEach(b=>b.onclick=()=>setLang(b.dataset.l));
+ let l="hy";try{l=localStorage.getItem("lang")||"hy"}catch(e){}
+ if(l!=="hy")setLang(l);
+})();
+</script>
+</body>
+</html>
