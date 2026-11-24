@@ -4,10 +4,10 @@ import re, pathlib
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 IMAGES = {
     "LOGO": "logo_lat.png", "FMW": "fm_white.png", "FMT": "fm_teal.png", "FARM": "farm.jpg",
-    "HEN": "hen.jpg", "PACK": "pack.jpg", "LEGS": "legs.jpg", "WHOLE": "whole.jpg",
+    "HEN": "hen.jpg", "PACK": "pack.jpg", "LEGS": "thigh.jpg", "WHOLE": "whole_bag.jpg",
     "FILLET": "fillet.jpg", "WING": "wing.jpg", "BONE": "bonebreast.jpg", "SCHN": "schnitzel.jpg",
-    "SAUS": "sausage.jpg", "PHAM": "pork_ham.jpg", "PNECK": "pork_neck.jpg", "STICKS": "sticks.jpg",
-    "FRY": "frysaus.jpg", "PFAT": "pork_fat.jpg", "NUG": "nuggets2.jpg", "CUT": "cutlet.jpg", "DRUM": "drumstick.jpg", "PRIB": "pork_ribs.jpg", "PMAT": "pork_belly_ribs.jpg",
+    "SAUS": "sausage.jpg", "PHAM": "pork_ham.jpg", "PNECK": "pork_neck2.jpg", "STICKS": "sticks.jpg",
+    "FRY": "frysaus.jpg", "PFAT": "pork_fat.jpg", "NUG": "nuggets2.jpg", "CUT": "cutlet.jpg", "DRUM": "drumstick2.jpg", "PRIB": "pork_ribs.jpg", "PMAT": "pork_matter2.jpg", "SPEC": "saus_special.jpg", "LEGQ": "leg_quarter.jpg",
 }
 html = (ROOT / "src/template.html").read_text(encoding="utf-8")
 for key, name in IMAGES.items():
