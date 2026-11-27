@@ -4,7 +4,7 @@ import re, pathlib
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 IMAGES = {
     "LOGO": "logo_lat.png", "FMW": "fm_white.png", "FMT": "fm_teal.png", "FARM": "farm_warm.jpg",
-    "HEN": "hen.jpg", "PACK": "pack_framed.jpg", "LEGS": "thigh.jpg", "WHOLE": "whole_framed.jpg",
+    "HEN": "hen.jpg", "PACK": "pack_framed.jpg", "LEGS": "thigh_boneless.jpg", "WHOLE": "whole_framed.jpg",
     "FILLET": "fillet.jpg", "WING": "wing_v2.jpg", "BONE": "bonebreast.jpg", "SCHN": "schnitzel.jpg",
     "SAUS": "sausage.jpg", "PHAM": "pork_ham.jpg", "PNECK": "pork_neck2.jpg", "STICKS": "sticks.jpg",
     "FRY": "frysaus.jpg", "PFAT": "pork_fat.jpg", "NUG": "nuggets2.jpg", "CUT": "cutlet.jpg", "DRUM": "drumstick2.jpg", "PRIB": "pork_ribs_v2.jpg", "PMAT": "pork_matter_v3.jpg", "SPEC": "saus_special.jpg", "LEGQ": "leg_quarter.jpg", "SMOK": "smoked_breast.jpg", "MOOD1": "mood1.jpg", "MOOD2": "mood2.jpg", "MOOD3": "mood3.jpg", "MOOD4": "mood4.jpg", "MOOD5": "mood5.jpg", "MOOD6": "mood6.jpg", "SMLEG": "smoked_leg.jpg", "SMSTK": "smoked_sticks.jpg",
