@@ -3,7 +3,7 @@
 import re, pathlib
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 IMAGES = {
-    "LOGO": "logo_lat.png", "FMW": "fm_white.png", "FMT": "fm_teal.png", "FARM": "farm.jpg",
+    "LOGO": "logo_lat.png", "FMW": "fm_white.png", "FMT": "fm_teal.png", "FARM": "farm_warm.jpg",
     "HEN": "hen.jpg", "PACK": "pack.jpg", "LEGS": "thigh.jpg", "WHOLE": "whole_bag_v2.jpg",
     "FILLET": "fillet.jpg", "WING": "wing_v2.jpg", "BONE": "bonebreast.jpg", "SCHN": "schnitzel.jpg",
     "SAUS": "sausage.jpg", "PHAM": "pork_ham.jpg", "PNECK": "pork_neck2.jpg", "STICKS": "sticks.jpg",
